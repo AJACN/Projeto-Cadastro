@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Bird;
+    src: url(Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf);
+}
+
+@font-face {
+    font-family: Sword;
+    src: url(Blacksword.otf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(natural.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body h1 {
+    font-family: Bird;
+    font-weight: 100;
+}
+
+.container {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+
+.header, .footer {
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.header {
+    background-color: goldenrod;
+    border: 2.5px solid black;
+}
+
+.login {
+    background-color: rgba(240, 200, 98, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login h2 {
+    margin-bottom: 18px;
+    font-family: Sword;
+    font-weight: 100;
+}
+
+.login label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.login input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+}
+
+.login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #303030;
+}
+
+.login p {
+    margin-top: 10px;
+}
+
+.login a {
+    color: #000;
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
